@@ -62,9 +62,13 @@
                 });
                 
                 //init chart
+                init();
+            });
+            
+            function init(){
                 productivity_chart();
                 activity_table();
-            });
+            }
             
             function productivity_chart(){
                 var key = $("#person option:selected").val();
@@ -209,7 +213,7 @@
                 </tr>
                 <tr>
                     <td colspan="3">
-                        <input type="button" name="filter" id="btn-filter" value="Filter" style="width : 100px;" onclick="productivity_chart()"/>
+                        <input type="button" name="filter" id="btn-filter" value="Filter" style="width : 100px;" onclick="init()"/>
                     </td>
                 </tr>
             </table>
