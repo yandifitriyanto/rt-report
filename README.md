@@ -6,6 +6,6 @@
 
 ## Installation Step :
 1. buka folder rt-report kemudian eksekusi perintah : `npm install`
-2. seduh kopi dan minum kopi sejenak
+2. seduh kopi dan minum sejenak
 3. eksekusi perintah : `node server.js`
 4. buka URL : `localhost:8081/`
