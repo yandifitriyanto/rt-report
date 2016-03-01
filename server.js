@@ -25,7 +25,7 @@ var options = {
 
 //all request here : 
 app.get('/', function (req, res) {
-   res.sendFile( __dirname + "/" + "index.htm" );
+   res.sendFile( __dirname + "/views/" + "index.htm" );
 })
 
 app.get('/rt_data', function(req, res){
