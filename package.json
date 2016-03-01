@@ -1,0 +1,32 @@
+{
+  "name": "rt-report",
+  "version": "1.0.0",
+  "description": "Rescue Time Reporting",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javanlabs/rt-report.git"
+  },
+  "keywords": [
+    "rescue",
+    "time",
+    "highchart",
+    "nodejs",
+    "expressjs"
+  ],
+  "author": "Rayhan Firdaus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javanlabs/rt-report/issues"
+  },
+  "homepage": "https://github.com/javanlabs/rt-report#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "multer": "^1.1.0"
+  }
+}
